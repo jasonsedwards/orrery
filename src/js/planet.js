@@ -18,4 +18,3 @@ class Planet {
         return this.timeForOrbit;
     }
 }
-module.exports = Planet

@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8"/>
-        <title> Orrery </title>
+      <meta charset="utf-8"/>
+      <title> Orrery </title>
+      <style>
+        canvas {
+          background-color: black;
+        }
+      </style>
     </head>
       <style>
         canvas { border: 1px solid black; }
@@ -10,12 +15,9 @@
     </head>
     <body>
       <canvas id="orrery" width="750" height="750">
-        Your browser does not support the HTML 5 canvas element!
       </canvas>
-      <script type="text/javascript" src="./js/main.js">
-        window.onload = function() {
-          main();
-        }
-      </script>
+      <script type="text/javascript" src="js/config.js"></script>
+      <script type="text/javascript" src="js/planet.js"></script>
+      <script type="text/javascript" src="js/main.js" onload="main()"></script>
     </body>
 </html>
