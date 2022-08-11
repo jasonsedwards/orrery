@@ -3,18 +3,19 @@
     <head>
       <meta charset="utf-8"/>
       <title> Orrery </title>
-      <style>
-        canvas {
-          background-color: black;
-          border: 3px solid red;
-        }
-      </style>
+      <link rel="stylesheet" type="text/css" href="css/style.css"/>
     </head>
     <body>
-      <canvas id="orrery" width="750" height="750">
-      </canvas>
+      <h1 id='title'>Welcome to the Orrery</h1>
+      <hr />
+      <canvas id="orrery" width="750" height="750"></canvas>
+      <hr />
+      <article id="info">
+        <h2>Info:</h2>
+        <table id="info-table"></table>
+      </article>
       <script type="text/javascript" src="js/config.js"></script>
       <script type="text/javascript" src="js/planet.js"></script>
-      <script type="text/javascript" src="js/main.js" onload="main()"></script>
+      <script type="text/javascript" src="js/main.js" onload="main();"></script>
     </body>
 </html>
